@@ -1,0 +1,34 @@
+{
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.startupEditor": "none",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "files.defaultLanguage": "English",
+  "code-runner.runInTerminal": false,
+  "code-runner.runInOutput": true,
+  "workbench.iconTheme": "vscode-icons",
+  "settingsSync.ignoredSettings": [
+    "-emmet.extensionsPath",
+    "-python.defaultInterpreterPath"
+  ],
+  "github.copilot.editor.enableAutoCompletions": false,
+  "emmet.extensionsPath": [
+    "C:\\Users\\metzg\\AppData\\Roaming\\Code\\User\\snippets"
+  ],
+  "emmet.syntaxProfiles": {
+    "html": {
+      "inline_break": true
+    }
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDragAndDrop": false,
+  "python.defaultInterpreterPath": "",
+  "git.autofetch": true,
+  "files.autoSave": "afterDelay"
+}
