@@ -1,9 +1,20 @@
+import random
+
 tree_height = 15
 
-for i in range(1, tree_height + 1):
-    spaces = " " * (tree_height - i)
-    hashtags = "#" * (2 * i - 1)
-    print(spaces + hashtags)
+RED = '\033[91m'
+GREEN = '\033[92m'
+BROWN = '\033[33m'
+RESET = '\033[0m'
+
+for i in range(tree_height):
+    spaces = " " * (tree_height - i - 1)
+    tree = ''.join([
+        f'{GREEN}#{RESET}'
+        if random.random() > 0.2 else f'{RED}O{RESET}'
+        for _ in range(2 * i + 1)
+        ])
+    print(spaces + tree)
 
 log_width = (tree_height // (2 * 2)) + 1
 
@@ -16,4 +27,4 @@ log_height = (2 * tree_height) // 5
 log_spaces = " " * ((tree_height * 2 - 1 - log_width) // 2)
 
 for _ in range(log_height):
-    print(log_spaces + '|' * log_width)
+    print(log_spaces + (BROWN+'|' * log_width+RESET))
