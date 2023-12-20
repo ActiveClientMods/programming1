@@ -7,7 +7,7 @@ draw.speed(0)
 
 
 draw.up()
-draw.setpos(-30,-50)
+draw.setpos(-30, -50)
 draw.down()
 
 for i in range(2):
@@ -17,7 +17,7 @@ for i in range(2):
     draw.left(90)
 
 draw.up()
-draw.setpos(150,-15)
+draw.setpos(150, -15)
 draw.down()
 draw.fillcolor("red")
 draw.begin_fill()
@@ -26,7 +26,8 @@ draw.end_fill()
 draw.hideturtle()
 turtle.done()
 
-#Rainbow Benzene
+# Rainbow Benzene
+
 '''
 colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']
 canvas.bgcolor('black')
@@ -36,9 +37,8 @@ for x in range(360):
     draw.width(x//100 + 1)
     draw.forward(x)
     draw.left(59)
-    
+
 draw.hideturtle()
 turtle.done()
 
 '''
-

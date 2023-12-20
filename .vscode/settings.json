@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Tokyo Night",
+  "workbench.colorTheme": "GitHub Dark Default",
   "workbench.startupEditor": "none",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
@@ -9,8 +9,8 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "files.defaultLanguage": "English",
-  "code-runner.runInTerminal": false,
-  "code-runner.runInOutput": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.runInOutput": false,
   "workbench.iconTheme": "vscode-icons",
   "settingsSync.ignoredSettings": [
     "-emmet.extensionsPath",
